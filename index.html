@@ -1,50 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Example</title>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header class="text-center my-4">
-            <h1>Welcome to My Bootstrap Website</h1>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="styles.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg px-5"
+      style="background-color: DodgerBlue; width: 100%; margin: 0"
+    >
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://via.placeholder.com/40"
+          alt="Brand"
+          width="30"
+          height="30"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 4</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div>
+        <img src="Images/HomePage_banner.png" class="img-fluid" alt="..." />
+      </div>
+      <div class="container-fluid m-5">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4" style="color: DodgerBlue">
+              Welcome to DOG Care
+            </h1>
+            <p>
+              Discover Central Bark Asheville – where your dog’s best life
+              begins! You love your furry friend, and we understand the
+              challenge of meeting all their needs. At Central Bark, we’re here
+              to help your dog be healthy, happy, and well-rounded. Enjoy peace
+              of mind as your dog spends a fantastic day with friends in our
+              safe, loving environment. Our Whole Dog Care approach focuses on
+              nurturing your dog’s overall health and well-being throughout
+              their life. Experience the heart of our approach with Enrichment
+              Dog Day Care. We also provide dog boarding, grooming, training,
+              and more, all aimed at helping you and your dog share the best
+              life. We recognize that dogs aren’t just LIKE family – they ARE
+              family. As fellow dog parents, we take pride in treating every dog
+              as if they’re our own. Welcome to Central Bark Asheville!
+            </p>
+          </div>
+          <div class="col pt-5">
+            <img
+              src="Images/profile-pic (21).png"
+              class="rounded mx-auto d-block"
+              width="304"
+              height="236"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="m-5">
+        <div class="d-flex justify-content-center p-5">
+          <h1 class="display-4" style="color: DodgerBlue">
+            Discover Central Bark Asheville – where your dog’s best life begins!
+            You love your furry friend, and we understand the challenge of
+            meeting all their needs.
+          </h1>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col p-2">
+              <div>
+                <img
+                  src="Images/profile-pic (21).png"
+                  class="rounded mx-auto d-block"
+                  width="304"
+                  height="236"
+                />
+              </div>
+              <div>
+                <p
+                  class="d-flex justify-content-center  pt-4 px-5"
+                  style="color: DodgerBlue"
+                >
+                  Discover Central Bark Asheville – where your dog’s best life
+                  begins! You love your furry friend, and we understand the
+                  challenge of meeting all their needs.
+                </p>
+              </div>
             </div>
-        </nav>
-        <main class="mt-4">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2>Main Content</h2>
-                    <p>This is the main content area.</p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Sidebar</h2>
-                    <p>This is the sidebar area.</p>
-                </div>
+            <div class="col p-2">
+              <img
+                src="Images/profile-pic (21).png"
+                class="rounded mx-auto d-block"
+                width="304"
+                height="236"
+              />
+              <p
+              class="d-flex justify-content-center  pt-4 px-5"
+              style="color: DodgerBlue"
+              >
+                Discover Central Bark Asheville – where your dog’s best life
+                begins! You love your furry friend, and we understand the
+                challenge of meeting all their needs.
+              </p>
             </div>
-        </main>
-        <footer class="text-center mt-4">
-            <p>&copy; 2024 My Bootstrap Website</p>
-        </footer>
+            <div class="col p-2">
+              <img
+                src="Images/profile-pic (21).png"
+                class="rounded mx-auto d-block"
+                width="304"
+                height="236"
+              />
+              <p
+              class="d-flex justify-content-center  pt-4 px-5"
+              style="color: DodgerBlue"
+              >
+                Discover Central Bark Asheville – where your dog’s best life
+                begins! You love your furry friend, and we understand the
+                challenge of meeting all their needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col ">
+            <img
+              src="Images/profile-pic (21).png"
+              class="rounded mx-auto d-block"
+              width="304"
+              height="236"
+            />
+            <p
+            class="d-flex justify-content-center  mx-5 px-5"
+            style="color: DodgerBlue"
+            >
+              Discover Central Bark Asheville – where your dog’s best life
+              begins! You love your furry friend, and we understand the
+              challenge of meeting all their needs.
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="Images/profile-pic (21).png"
+              class="rounded mx-auto d-block"
+              width="304"
+              height="236"
+            />
+            <p
+            class="d-flex justify-content-center  mx-5 px-5"
+            style="color: DodgerBlue"
+            >
+              Discover Central Bark Asheville – where your dog’s best life
+              begins! You love your furry friend, and we understand the
+              challenge of meeting all their needs.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
-</body>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
